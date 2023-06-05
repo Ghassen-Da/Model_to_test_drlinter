@@ -6,7 +6,7 @@ import datetime
 from statistics import mean
 from gym import wrappers
 
-
+ 
 class MyModel(tf.keras.Model):
     def __init__(self, num_states, hidden_units, num_actions):
         super(MyModel, self).__init__()
