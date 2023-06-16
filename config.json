@@ -1,5 +1,5 @@
 {
-    "fileName":"mix_bugs_1.py",
+    "fileName":"DQN_Missing_close_reset_environment.py",
     "parserType":"annot",
-    "resultFileName":"result"
+    "resultFileName":"result.txt"
 }
