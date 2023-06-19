@@ -61,7 +61,7 @@ class DQN:
         gradients = tape.gradient(loss, variables)
         self.optimizer.apply_gradients(zip(gradients, variables))
         return loss
-
+ 
     def get_action(self, states, epsilon):
         if np.random.random() < epsilon:
             return np.random.choice(self.num_actions)
